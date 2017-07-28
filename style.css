@@ -11,7 +11,7 @@ body
 {
 	width:80%;
 	margin:auto;
-	overflow:hidden;
+	/*overflow:hidden;*/
 }
 header
 {
@@ -51,8 +51,8 @@ float: left;
 }
 .leftside{
 	padding: 5px;
-	position:relative;
-	margin-top: 20px;
+	float:left;
+	margin: 20px;
 	background:#CECECE;
 	width: 20%;
 	border-radius: 20px;
@@ -62,14 +62,19 @@ float: left;
 	background:#ffffff;
 	border-radius: 20px;
 	width: 30%;
-
+	margin:20px;
 	float:left;
 	padding: 5px;
 }
 .rightside{
 	border-radius: 20px;
-	background:#A34800;
+	background:skyblue;
 	width: 20%;
-	float:right;
+	float:left;
 	padding: 5px;
+	margin:20px;
 }
+.rightside h3
+{
+	color: White;	
+	}
