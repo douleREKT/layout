@@ -11,7 +11,7 @@ body
 {
 	width:80%;
 	margin:auto;
-	/*overflow:hidden;*/
+	overflow:auto;
 }
 header
 {
@@ -49,7 +49,7 @@ header a
 float: left;
 
 }
-.leftside{
+.left{
 	padding: 5px;
 	float:left;
 	margin: 20px;
@@ -57,24 +57,40 @@ float: left;
 	width: 20%;
 	border-radius: 20px;
 }
-.center{
+.left img
+{
+	float:left;
+	height:20px;
+	width:20px;
+	padding : 20px;
+	width:20%;
+}
+.section-center{
 
-	background:#ffffff;
+	background:#CECECE;
 	border-radius: 20px;
 	width: 30%;
 	margin:20px;
-	float:left;
+	float:left;*/
 	padding: 5px;
 }
 .rightside{
 	border-radius: 20px;
-	background:skyblue;
+	background:#CECECE;
 	width: 20%;
 	float:left;
 	padding: 5px;
 	margin:20px;
 }
-.rightside h3
+.leftside h3
 {
-	color: White;	
+
+	clear:left;
+	color: White;
 	}
+.bar
+{
+	float:left;
+	width:10%;
+	background-color: Grey;
+}
