@@ -16,7 +16,7 @@ body
 header
 {
 	background:#35424a;
-	color: #ffffff;
+	color: #01D2D2;
 	padding-top:30px;
 	min-height: 70px;
 	border-bottom: #01D2D2 3px solid;
@@ -34,8 +34,8 @@ header li
 }
 header #search
 {
-	margin-top: -30px;
-	clear: left;
+
+	display:inline;
 	float:right;
 }
 header a
@@ -81,6 +81,7 @@ float: left;
 }
 .left img{
 	border:solid 2px #01D2D2;
+	background-color:white;
 	border-radius:100%;
 	float:left;
 	height:20px;
