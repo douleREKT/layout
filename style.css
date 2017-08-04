@@ -94,7 +94,7 @@ float: left;
 	width: 40%;
 	margin:20px;
 	float:left;
-	display:*block;
+	text-align:justify;
 	padding: 5px;
 }
 .section-center
@@ -108,12 +108,19 @@ float: left;
 	padding: 5px;
 }
 .rightside{
-	border-radius: 20px;
-	background:#CECECE;
-	width: 20%;
+	
+	
+	width: 30%;
 	float:left;
 	padding: 5px;
-	margin:20px;
+	margin:20px 0 20px 0 ;
+}
+.right
+{
+	margin:0px 0px 10px 0px;
+	padding:5% 5% 5% 5%;
+	border-radius: 5%;
+	background-color:#cecece;
 }
 .leftside p
 {
@@ -126,18 +133,19 @@ float: left;
 	width:10%;
 	background-color: Grey;
 }
-.left a:hover{
+.left a:hover,h3:hover{
 	
 	text-decoration:none;
 	color:white;
 }
-.left li:hover{
+.left li:hover ,header li:hover{
 	border-bottom:solid 2px white;
 	text-decoration:none;
 	color:white;
 	}
-.left a
+.left a,h3
 {
+	text-align:center;
 	color:#01D2D2;
 	text-decoration:none;	
 }
