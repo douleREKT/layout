@@ -49,29 +49,40 @@ header a
 float: left;
 
 }
-.left{
+.left {
+	
 	padding: 5px;
 	float:left;
+	clear : left;
 	margin: 20px;
 	background:#CECECE;
 	width: 20%;
 	border-radius: 20px;
 }
-.left img
-{
+.left img{
 	float:left;
 	height:20px;
 	width:20px;
 	padding : 20px;
 	width:20%;
 }
-.section-center{
-
+.center{
+	
+	border-radius: 20px;
+	width: 40%;
+	margin:20px;
+	float:left;
+	display:*block;
+	padding: 5px;
+}
+.section-center
+{
+	
+	border:solid 2px #CECECE;
 	background:#CECECE;
 	border-radius: 20px;
-	width: 30%;
-	margin:20px;
-	float:left;*/
+	width: 80%;
+	margin: 0 10px 10px 10px;
 	padding: 5px;
 }
 .rightside{
